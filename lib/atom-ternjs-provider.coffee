@@ -7,7 +7,7 @@ class Provider
   manager: null
   force: false
   # automcomplete-plus
-  selector: '.source.js'
+  selector: '.source.js, source.coffee'
   disableForSelector: '.source.js .comment'
   inclusionPriority: 1
   excludeLowerPriority: atom.config.get('atom-ternjs.excludeLowerPriorityProviders')

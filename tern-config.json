@@ -10,6 +10,7 @@
   "loadEagerly": [],
   "dontLoad": [],
   "plugins": {
+    "coffee": {},
     "complete_strings": {
       "maxLength": 15
     },
